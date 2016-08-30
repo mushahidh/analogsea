@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sigup - AnalogSea</title>
+	<meta charset="utf-8" name="description" content="AnalogSea cloud service ">
+	<link rel="stylesheet" type="text/css" href="css\main.css">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+</head>
+<body>
+	<main>
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+		
+		<div class="form">
+			<h1 class="heading">Sign up</h1>
+			<form action="/signup/">
+				<div class="inner-form">
+					<label for="email"> Email</label><br><br>
+					<input type="email"  required email name="email" id="email" placeholder="foo@bar.com"><br><br>
+					<label for="password"> Password</label><br><br>
+					<input type="password" required name="password" id="password" placeholder="password@123"><br><br>
+					<button type="submit"> Sign up</button><br><br>
+					<a class="forgot" href="/forgot-password/new"> Forgot password?</a>
+				</div>
+			</form>
+		</div>
+		<h3>Already have an account? <a href="/login">Login</a></h3>
+	</main>
+</body>
+</html>
